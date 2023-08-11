@@ -28,16 +28,21 @@ const shuffleArray = (arr) => {
     return arr;
 }
 
+const generateListOfQuestions = () => {
+    const questionList = getQuestions();
+    let listofQuestions = [];
+        for (let i = 0; i < 10; i++){
+            listofQuestions.push(questionList[generateRandomIndex(questionList.length)]);   
+        }
+        listofQuestions.forEach(question => question.options = shuffleArray(question.options));
+    return listofQuestions;
+}
 
 router
     .route("/")
     .get((req, res) => {
-        const questionList = getQuestions();
-        const question = questionList[generateRandomIndex(questionList.length)];
-        question.options = shuffleArray(question.options);
-
-        console.log(questionList.length);
-        res.status(200).json(question);
+        const questionList = generateListOfQuestions();
+        res.status(200).json(questionList);
     })
     .post((req, res) => {
         const { id, option } = req.body
