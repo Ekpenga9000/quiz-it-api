@@ -1,0 +1,402 @@
+[
+    {
+      "question": "Which of the following is not a reserved word in JavaScript?",
+      "options": [
+        "interface",
+        "throws",
+        "short",
+        "program"
+      ],
+      "correct_answer": "program"
+    },
+    {
+      "question": "What is the correct JavaScript syntax to change the content of the following HTML element: <p id='demo'>This is a demonstration.</p>?",
+      "options": [
+        "document.getElementByName('p').innerHTML = 'Hello World!';",
+        "document.getElementById('demo').innerHTML = 'Hello World!';",
+        "#demo.innerHTML = 'Hello World!';",
+        "document.getElementsById('demo')[0].innerText = 'Hello World!';"
+      ],
+      "correct_answer": "document.getElementById('demo').innerHTML = 'Hello World!';"
+    },
+    {
+      "question": "Which of the following function of String object extracts a section of a string and returns a new string?",
+      "options": [
+        "slice()",
+        "split()",
+        "replace()",
+        "search()"
+      ],
+      "correct_answer": "slice()"
+    },
+    {
+      "question": "Which built-in method returns the length of the string?",
+      "options": [
+        "length()",
+        "size()",
+        "index()",
+        "None of the above."
+      ],
+      "correct_answer": "None of the above."
+    },
+    {
+      "question": "Which of the following will write the message 'Hello DataFlair!' in an alert box?",
+      "options": [
+        "alertBox('Hello DataFlair!');",
+        "msgAlert('Hello DataFlair!');",
+        "msg('Hello DataFlair!');",
+        "alert('Hello DataFlair!');"
+      ],
+      "correct_answer": "alert('Hello DataFlair!');"
+    },
+    {
+      "question": "How do you initialize an array in JavaScript?",
+      "options": [
+        "let arr = (1,2,3);",
+        "let arr = [1,2,3];",
+        "let arr = {1,2,3};",
+        "let arr = <1,2,3>;"
+      ],
+      "correct_answer": "let arr = [1,2,3];"
+    },
+    {
+      "question": "What will the following code return? Boolean(10 > 9)",
+      "options": [
+        "NaN",
+        "false",
+        "true",
+        "undefined"
+      ],
+      "correct_answer": "true"
+    },
+    {
+      "question": "Which method of an Array object adds and/or removes elements from an array?",
+      "options": [
+        "toSource()",
+        "sort()",
+        "splice()",
+        "unshift()"
+      ],
+      "correct_answer": "splice()"
+    },
+    {
+      "question": "Which of the following is not a JavaScript framework or library?",
+      "options": [
+        "Python",
+        "React",
+        "Angular",
+        "Vue"
+      ],
+      "correct_answer": "Python"
+    },
+    {
+      "question": "What is the correct way to create a JavaScript array?",
+      "options": [
+        "let colors = 1 = ('red'), 2 = ('green'), 3 = ('blue');",
+        "let colors = (1:'red', 2:'green', 3:'blue');",
+        "let colors = 'red','green','blue';",
+        "let colors = ['red', 'green', 'blue'];"
+      ],
+      "correct_answer": "let colors = ['red', 'green', 'blue'];"
+    },
+    {
+      "question": "Which of the following is the correct syntax to redirect a URL using JavaScript?",
+      "options": [
+        "window.location = 'http://www.example.com';",
+        "document.location = 'http://www.example.com';",
+        "browser.redirect('http://www.example.com');",
+        "navigator.location = 'http://www.example.com';"
+      ],
+      "correct_answer": "window.location = 'http://www.example.com';"
+    },
+    {
+      "question": "Which built-in method combines the text of two strings and returns a new string?",
+      "options": [
+        "append()",
+        "concat()",
+        "attach()",
+        "combine()"
+      ],
+      "correct_answer": "concat()"
+    },
+    {
+      "question": "Which of the following function of Array object returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found?",
+      "options": [
+        "indexOf()",
+        "join()",
+        "lastIndexOf()",
+        "map()"
+      ],
+      "correct_answer": "lastIndexOf()"
+    },
+    {
+      "question": "Which of the following function of String object returns the character at the specified index?",
+      "options": [
+        "charAt()",
+        "charCodeAt()",
+        "concat()",
+        "indexOf()"
+      ],
+      "correct_answer": "charAt()"
+    },
+    {
+      "question": "Which of the following function of Array object applies a function simultaneously against two values of the array (from left-to-right) as to reduce it to a single value?",
+      "options": [
+        "pop()",
+        "push()",
+        "reduce()",
+        "reduceRight()"
+      ],
+      "correct_answer": "reduce()"
+    },
+    {
+      "question": "Which statement is used to test for a specific condition in JavaScript?",
+      "options": [
+        "switch",
+        "if",
+        "loop",
+        "debug"
+      ],
+      "correct_answer": "if"
+    },
+    {
+      "question": "How would you write 'Hello World' in an alert box?",
+      "options": [
+        "alert('Hello World');",
+        "msgBox('Hello World');",
+        "alertBox('Hello World');",
+        "msg('Hello World');"
+      ],
+      "correct_answer": "alert('Hello World');"
+    },
+    {
+      "question": "What is the JavaScript syntax for getting an element with the id 'demo'?",
+      "options": [
+        "document.getElement('demo');",
+        "document.getElementById('demo');",
+        "document.pickElement('demo');",
+        "document.querySelector('#demo');"
+      ],
+      "correct_answer": "document.getElementById('demo');"
+    },
+    {
+      "question": "How can you add a comment in JavaScript?",
+      "options": [
+        "//This is a comment",
+        "/*This is a comment*/",
+        "<!--This is a comment-->",
+        "Both option 1 and 2"
+      ],
+      "correct_answer": "Both option 1 and 2"
+    },
+    {
+      "question": "Which global function can be used to parse a string to an integer?",
+      "options": [
+        "toNumber()",
+        "toInt()",
+        "parseFloat()",
+        "parseInt()"
+      ],
+      "correct_answer": "parseInt()"
+    },
+    {
+      "question": "Which of the following is a server-side JavaScript environment?",
+      "options": [
+        "React",
+        "JQuery",
+        "Node.js",
+        "TypeScript"
+      ],
+      "correct_answer": "Node.js"
+    },
+    {
+      "question": "What will the following code output? `console.log(typeof null);`",
+      "options": [
+        "undefined",
+        "null",
+        "object",
+        "number"
+      ],
+      "correct_answer": "object"
+    },
+    {
+      "question": "Which of the following is true about `==` in JavaScript?",
+      "options": [
+        "It compares values and types.",
+        "It compares only values.",
+        "It compares only references.",
+        "It compares nothing."
+      ],
+      "correct_answer": "It compares only values."
+    },
+    {
+      "question": "What method can be used to encode a URL in JavaScript?",
+      "options": [
+        "urlEncode()",
+        "encodeURI()",
+        "encodeURIComponent()",
+        "Both option 2 and 3"
+      ],
+      "correct_answer": "Both option 2 and 3"
+    },
+    {
+      "question": "Which event fires whenever a control loses focus?",
+      "options": [
+        "onblur",
+        "onfocus",
+        "onformchange",
+        "onforminput"
+      ],
+      "correct_answer": "onblur"
+    },
+    {
+      "question": "What is the purpose of the JavaScript `Array.prototype.map()` function?",
+      "options": [
+        "It loops through each item in an array.",
+        "It tests whether at least one element in the array passes the test implemented by the provided function.",
+        "It creates a new array with the results of calling a function for every array element.",
+        "It merges two or more arrays."
+      ],
+      "correct_answer": "It creates a new array with the results of calling a function for every array element."
+    },
+    {
+      "question": "Which of the following will correctly create a JavaScript object?",
+      "options": [
+        "let obj = { key: 'value' };",
+        "let obj = (key: 'value');",
+        "let obj = [key: 'value'];",
+        "let obj = <key: 'value'>;"
+      ],
+      "correct_answer": "let obj = { key: 'value' };"
+    },
+    {
+      "question": "In JavaScript, which of the following is NOT a truthy value?",
+      "options": [
+        "'0'",
+        "[]",
+        "NaN",
+        "'false'"
+      ],
+      "correct_answer": "NaN"
+    },
+    {
+      "question": "What does the `this` keyword refer to inside a JavaScript function?",
+      "options": [
+        "The function itself",
+        "The object that the function is a method of",
+        "The global object (like window in browsers)",
+        "It varies depending on how the function is called"
+      ],
+      "correct_answer": "It varies depending on how the function is called"
+    },
+    {
+      "question": "Which HTML attribute is used to include an external JavaScript file?",
+      "options": [
+        "link",
+        "import",
+        "include",
+        "src"
+      ],
+      "correct_answer": "src"
+    },
+    {
+      "question": "Which of the following is the correct way to comment out multiple lines in JavaScript?",
+      "options": [
+        "// This comment style only",
+        "/* This comment style */",
+        "<!-- This comment style -->",
+        "-- This comment style --"
+      ],
+      "correct_answer": "/* This comment style */"
+    },
+    {
+      "question": "Which JavaScript label catches all the values, except for the ones specified?",
+      "options": [
+        "catch",
+        "label",
+        "try",
+        "default"
+      ],
+      "correct_answer": "default"
+    },
+    {
+      "question": "Which is the correct JavaScript syntax to change the HTML content of the following code? `<p id='test'>Hello World!</p>`",
+      "options": [
+        "document.getElement('test').innerHTML = 'Hello Universe!';",
+        "document.getElementById('test').innerText = 'Hello Universe!';",
+        "document.pickElement('test').innerHTML = 'Hello Universe!';",
+        "#test.innerHTML = 'Hello Universe!';"
+      ],
+      "correct_answer": "document.getElementById('test').innerText = 'Hello Universe!';"
+    },
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "options": [
+        "<javascript>",
+        "<scripting>",
+        "<js>",
+        "<script>"
+      ],
+      "correct_answer": "<script>"
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "options": [
+        "onchange",
+        "onmouseover",
+        "onclick",
+        "onmouseclick"
+      ],
+      "correct_answer": "onclick"
+    },
+    {
+      "question": "How do you write an IF statement in JavaScript?",
+      "options": [
+        "if i == 5 then",
+        "if (i == 5)",
+        "if i = 5",
+        "if i = 5 then"
+      ],
+      "correct_answer": "if (i == 5)"
+    },
+    {
+      "question": "How can you add a new property to an existing object?",
+      "options": [
+        "obj.add('newProp', 'value');",
+        "obj.newProp = 'value';",
+        "obj('newProp') = 'value';",
+        "obj.addValue('newProp', 'value');"
+      ],
+      "correct_answer": "obj.newProp = 'value';"
+    },
+    {
+      "question": "How do you find the number with the highest value of x and y?",
+      "options": [
+        "Math.ceil(x, y);",
+        "Math.highest(x, y);",
+        "Math.max(x, y);",
+        "top(x, y);"
+      ],
+      "correct_answer": "Math.max(x, y);"
+    },
+    {
+      "question": "Which method can determine if a string ends with a specified substring?",
+      "options": [
+        "endsWith()",
+        "lastSubstring()",
+        "tail()",
+        "final()"
+      ],
+      "correct_answer": "endsWith()"
+    },
+    {
+      "question": "Which method can be used to encode a JSON object to a string?",
+      "options": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.encode()",
+        "JSON.translate()"
+      ],
+      "correct_answer": "JSON.stringify()"
+    }
+]
