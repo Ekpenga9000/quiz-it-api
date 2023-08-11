@@ -5,9 +5,8 @@ require('dotenv').config();
 const quizRoute = require("./routes/quiz");
 const port = process.env.PORT; 
 
-app.use(cors);
+app.use(cors());
 app.use(express.json());
-
 app.use("/quiz", quizRoute);
 
 app.listen(port, () => {
